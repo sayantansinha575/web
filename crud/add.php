@@ -1,5 +1,5 @@
 <?php
-
+#submit form 
 include("db.php");
 if(isset($_POST['sub'])){
 	$Firstname=$_POST['fname'];
