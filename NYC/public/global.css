@@ -1,0 +1,98 @@
+.branch-login form img{
+    width: 95%;
+	margin-bottom: 0;
+	padding: 17px 0px;
+}
+.branch-login form .rcs_ico{
+   box-shadow: none !important;
+    width: 100%;
+    margin-bottom: 0;
+    border-bottom: 1px solid #E27618;
+    border-radius: 0; 
+}
+.branch-login .crs_log__caption {
+    position: relative;
+    padding: 0;
+    width: 100%;
+}
+.branch-login .rcs_log_124 {
+    padding: 0 30px;
+}
+.branch-login .crs_log_wrap{
+	box-shadow: 0 0 6px 0 rgb(237 158 88);
+    background: #f7f7f7;border: 1px solid #f7f7f7;
+}
+.branch-login .rcs_log_123 .rcs_ico {
+    background: #f7f7f7;
+}
+.smalls .form-control {
+    height: 38px;
+}
+input.form-control,select.form-control {
+    font-size: 13px;
+    height: 40px !important;
+}
+.form-group {
+    margin-bottom: 2px;
+}
+label {
+    margin-bottom: 0rem;
+}
+.btn{
+    padding: 10px 25px !important;
+}
+/*head office css*/
+.headoffice-login-logo{
+    width: 100%;
+    margin-bottom: 0;
+    padding: 0px;
+}
+.shadow-lg{
+    box-shadow: 0 0 45px 0 rgba(0,0,0,.12)!important;
+}
+.transpDisabled{
+    background-color: #ffffff !important;
+}
+.btn-headoffice-login{
+	
+	width: 100%;
+	background: #e77618;
+	border: none;
+}
+.head-office-login-page .card-header{
+	background-color: #f7f7f7 !important;
+}
+.head-office-login-page .card-body{
+	background: #f7f7f7;
+}
+.head-office-login-btn{
+	width: 100%;
+	background: #e97618;
+	border: none;
+}
+body.authentication-bg{
+	background-image: url(/public/headoffice/images/headoffice-background.jpg);
+}
+.previewImg {
+    max-width: 85px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

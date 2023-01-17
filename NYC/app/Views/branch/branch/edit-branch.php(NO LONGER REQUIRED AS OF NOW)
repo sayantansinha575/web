@@ -1,0 +1,160 @@
+<?= $this->extend('branch/layOut'); ?>
+<?= $this->section('body') ?>
+<div class="col-lg-9 col-md-9 col-sm-12">
+
+	<div class="row justify-content-between">
+		<div class="col-lg-12 col-md-12 col-sm-12 pb-4">
+			<div class="dashboard_wrap d-flex align-items-center justify-content-between">
+				<div class="arion">
+					<nav class="transparent">
+						<ol class="breadcrumb">
+							<li class="breadcrumb-item"><a href="<?= site_url('branch/dashboard'); ?>">Dashboard</a></li>
+							<li class="breadcrumb-item active" aria-current="page">Edit Branch</li>
+						</ol>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-xl-12 col-lg-12 col-md-12">
+			<div class="dashboard_wrap">
+
+				<div class="row">
+					<div class="col-xl-12 col-lg-12 col-md-12 mb-2">
+						<h6 class="m-0">Branch Details</h6><hr>
+					</div>
+				</div>
+
+				<div class="row justify-content-center">
+					<div class="col-xl-12 col-lg-12 col-md-12">
+						<form action="<?= site_url('branch/ammend-branch-details'); ?>" id="formBranch" accept-charset="UTF-8" autocomplete="off">
+							<div class="row">
+								<div class="col-md-6 mb-3">
+									<div class="form-group smalls">
+										<label class="form-label">Branch Name <span class="text-danger">*</span></label>
+										<input type="text" class="form-control" name="branch_name" id="branch_name" placeholder="Enter branch name" value="<?= ($details)?$details->branch_name:''; ?>">
+									</div>
+								</div>
+								<div class="col-md-6 mb-3">
+									<div class="form-group smalls">
+										<label class="form-label">Branch Email <span class="text-danger">*</span></label>
+										<input type="text" class="form-control" name="branch_email" id="branch_email" placeholder="Enter branch email" value="<?= ($details)?$details->branch_email:''; ?>">
+									</div>
+								</div>
+								<div class="col-md-4 mb-3">
+									<div class="form-group smalls">
+										<label class="form-label">Branch Code <span class="text-danger">*</span></label>
+										<input readonly type="text" class="form-control" value="<?= ($details)?$details->branch_code:''; ?>">
+									</div>
+								</div>
+								<div class="col-md-4 mb-3">
+									<div class="form-group smalls">
+										<label class="form-label">Registration Date <span class="text-danger">*</span></label>
+										<input readonly type="text" class="form-control singleDatePicker" placeholder="Select Registration date" value="<?= (!empty($details->date_of_registration))?date('Y-m-d', $details->date_of_registration):''; ?>">
+									</div>
+								</div>
+								<div class="col-md-4 mb-3">
+									<div class="form-group smalls">
+										<label class="form-label">Renewal Days Left</label>
+										<input readonly type="text" class="form-control numbers" placeholder="Enter renewal days left count" value="<?= ($details)?$details->renewal_days_left:''; ?>">
+									</div>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-xl-12 col-lg-12 col-md-12 mb-2">
+									<h6 class="header-title">Academy Details</h6><hr>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-4 col-xl-4 col-lg-4 col-sm-12 mb-3">
+									<div class="form-group smalls">
+										<label class="form-label">Academy Code <span class="text-danger">*</span></label>
+										<input type="text" class="form-control" name="academy_code" id="academy_code" placeholder="Enter academy code" value="<?= ($details)?$details->academy_code:''; ?>">
+									</div>
+								</div>
+								<div class="col-md-4 col-xl-4 col-lg-4 col-sm-12 mb-3">
+									<div class="form-group smalls">
+										<label class="form-label">Academy Name <span class="text-danger">*</span></label>
+										<input type="text" class="form-control" name="academy_name" id="academy_name" placeholder="Enter academy name" value="<?= ($details)?$details->academy_name:''; ?>">
+									</div>
+								</div>
+								<div class="col-md-4 col-xl-4 col-lg-4 col-sm-12 mb-3">
+									<div class="form-group smalls">
+										<label class="form-label">Academy Phone <span class="text-danger">*</span></label>
+										<input type="text" class="form-control"  name="academy_phone" id="academy_phone" value="<?= ($details)?$details->academy_phone:''; ?>">
+										
+									</div>
+								</div>
+								<div class="col-md-12 col-xl-12 col-lg-12 col-sm-12 mb-3">
+									<div class="form-group smalls">
+										<label class="form-label">Academy Address <span class="text-danger">*</span></label>
+										<textarea name="academy_address" id="academy_address"  rows="1" class="form-control" placeholder="Enter academy address"><?= ($details)?$details->academy_address:''; ?></textarea>
+									</div>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-xl-12 col-lg-12 col-md-12 mb-2">
+									<h6 class="header-title">Login Credentials</h6><hr>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-12 mb-3">
+									<div class="form-group smalls">
+										<label class="form-label">Username <span class="text-danger">*</span></label>
+										<input readonly type="text" class="form-control user-name" placeholder="Enter username" value="<?= ($details)?$details->username:''; ?>">
+									</div>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-xl-12 col-lg-12 col-md-12 mb-2">
+									<h6 class="header-title">Other Details</h6><hr>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-3 mb-3">
+									<div class="form-group smalls">
+										<label class="form-label">Invoice Prefix</label>
+										<input readonly type="text" class="form-control" placeholder="Enter invoice prefix" value="<?= ($details)?$details->invoice_prefix:''; ?>">
+									</div>
+								</div>
+								<div class="col-md-3 mb-3">
+									<div class="form-group smalls">
+										<label class="form-label">Student Enrollment Prefix</label>
+										<input readonly type="text" class="form-control" placeholder="Enter enrollment prefix" value="<?= ($details)?$details->student_enrollment_prefix:''; ?>">
+									</div>
+								</div>
+								<div class="col-md-3 mb-3">
+									<div class="form-group smalls">
+										<label class="form-label">Student Registration Prefix</label>
+										<input readonly type="text" class="form-control" placeholder="Enter registration prefix" value="<?= ($details)?$details->student_registration_prefix:''; ?>">
+									</div>
+								</div>
+								<div class="col-md-3 mb-3">
+									<div class="form-group smalls">
+										<label class="form-label">Certificate Prefix</label>
+										<input readonly type="text" class="form-control" placeholder="Enter certificate prefix" value="<?= ($details)?$details->certificate_prefix:''; ?>">
+									</div>
+								</div>
+							</div>
+							<div class="form-group smalls">
+								<?= csrf_field(); ?>
+								<button class="btn theme-bg text-white btnSaveBranch" type="submit">Save Change</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+</div>
+<?= $this->endSection(); ?>

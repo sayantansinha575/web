@@ -1,0 +1,185 @@
+
+table.dataTable tbody td.focus, table.dataTable tbody th.focus {
+	outline: none !important;
+	outline-offset: -1px;
+	background-color: transparent;
+}
+
+.select2-container .select2-selection--single {
+	box-sizing: border-box;
+	cursor: pointer;
+	display: block;
+	height: 35px;
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+td span.badge.badge-info-lighten.p-1{
+	cursor: pointer;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+	color: #444;
+	line-height: 33px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+	border-color: #888 transparent transparent transparent;
+	border-style: solid;
+	border-width: 5px 4px 0 4px;
+	height: 0;
+	left: 50%;
+	margin-left: -4px;
+	margin-top: 0px;
+	position: absolute;
+	top: 50%;
+	width: 0;
+}
+span.logo-lg.admin-logo-block {
+    background: white;
+}
+.btn-progress {
+	position: relative;
+	background-image: url("../images/spinner-white.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 30px;
+	disabled: true;
+	color: transparent !important;
+	pointer-events: none;
+}
+
+.modal-progress .modal-content, .formSubmitProgress {
+	position: relative; 
+}
+.modal-progress .modal-content, .formSubmitProgress:after {
+	content: ' ';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.5);
+	z-index: 999;
+	background-image: url("../images/spinner-double-ring.svg");
+	background-size: 80px;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 3px; 
+}
+
+@keyframes spinner {
+	to {transform: rotate(360deg);}
+}
+
+.spinner:before {
+	content: '';
+	box-sizing: border-box;
+	position: absolute;
+	background: hsla(0, 0%, 0%, 0);
+	top: 50%;
+	left: 50%;
+	width: 20px;
+	height: 20px;
+	margin-top: -10px;
+	margin-left: -10px;
+	border-radius: 50%;
+	border: 2px solid #ccc;
+	border-top-color: #333;
+	animation: spinner .6s linear infinite;
+}
+
+td a.btn-icon {
+	color: white;
+	padding: 1px;
+	width: 26px;
+}
+
+td a.btn-icon:hover{
+	color: black;
+}
+
+form a i.fa-solid.fa-plus {
+	margin-top: 6px;
+}
+
+form a i.fa-solid.fa-minus {
+	margin-top: 6px;
+}
+.table>:not(caption)>*>* {
+	padding: 0.7rem 0.95rem;
+}
+tbody, td, tfoot, th, thead, tr {
+	color: #000;
+	font-size: 12px;
+}
+.btn-group-sm>.btn, .btn-sm {
+	font-size: .65rem;
+}
+td a.btn-icon {
+	width: 22px;
+}
+
+td i.fa-solid.fa-circle.blink {
+	margin-left: 6px;
+	font-size: 8px;
+	position: absolute;
+}
+.dash1 {
+	background-image: linear-gradient(to right, #664dc9, #9884ea);
+}
+.dash2 {
+	background-image: linear-gradient(to right, #1D976C, #2fd38a);
+}
+.dash3 {
+	background-image: linear-gradient(to right, #fa5420, #f6a800);
+}
+.dash4 {
+	background-image: linear-gradient(to right, #5b73e8, #44c4fa);
+}
+
+.topnav {
+	background: linear-gradient(to bottom,#8f75da,#727cf5);
+}
+.navbar-dark .navbar-nav .nav-link {
+	color: rgb(255 255 255);
+}
+
+.toggle-password {
+    cursor: pointer;
+}
+
+td a{
+	margin: 0 3px 0 0;
+}
+td.indianCurrency::before{
+	content: "\20B9  " !important;
+	color:#000;
+	font-size: 15px;
+    font-weight: 500;
+}
+.iti { width: 100%; }
+
+.transpDisabled{
+    background-color: #ffffff !important;
+}
+
+#formBranch .img-thumbnail{
+	    max-width: 100%;
+}
+.dash1 {
+    background-image: linear-gradient(to right, #664dc9, #9884ea);
+    color: #fff;
+}
+.dash1 h5,.dash2 h5,.dash3 h5,.dash4 h5,.dash1 a,.dash2 a,.dash3 a,.dash4 a {
+color: #fff !important;
+}
+.dash2 {
+    background-image: linear-gradient(to right, #1D976C, #2fd38a);color: #fff;
+}
+.dash3 {
+    background-image: linear-gradient(to right, #fa5420, #f6a800);color: #fff;
+}
+.dash4 {
+    background-image: linear-gradient(to right, #5b73e8, #44c4fa);color: #fff;
+}

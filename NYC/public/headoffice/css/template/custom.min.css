@@ -1,0 +1,1 @@
+@media print{div,…{visibility:hidden}.hideBookDetails,.hideBreedcrumb,.hideLoadMore,.topnav,.topnav-navbar,aside,footer,form,header{display:none}#printBarcodeSection{visibility:visible;width:100%!important;padding:0!important;margin:0!important}}

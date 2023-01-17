@@ -1,0 +1,25 @@
+.sidebar .menu .list a {
+    color: #f0f3f5 !important;
+}
+
+.select2-container .select2-selection--single {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    height: 35px;
+    user-select: none;
+    -webkit-user-select: none;
+    margin-top: 7px;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    margin-top: 7px;
+}
+.profile-image{padding: 15px 0;}
+.inr::before{
+    content: "\20B9 "!important;
+    color: #748194;
+    font-size: 15px;
+    font-weight: 500;
+}
+#dtStudPayment p{margin: 0;}
+section.content{min-height: 700px;}

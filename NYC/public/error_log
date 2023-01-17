@@ -1,0 +1,1420 @@
+[03-Mar-2022 05:24:59 America/Chicago] PHP Fatal error:  Cannot declare class App\Models\Headoffice\Course_model, because the name is already in use in /home3/phpblkr8/public_html/nycta/app/Models/Headoffice/Wallet_model.php on line 24
+[05-Mar-2022 00:28:51 America/Chicago] PHP Fatal error:  Cannot declare class App\Controllers\Headoffice\Branch, because the name is already in use in /home3/phpblkr8/public_html/nycta/app/Controllers/Headoffice/Student.php on line 310
+[07-Mar-2022 06:30:49 America/Chicago] PHP Fatal error:  Cannot declare class App\Controllers\Home, because the name is already in use in /home3/phpblkr8/public_html/nycta/app/Controllers/Exporter.php on line 29
+[07-Mar-2022 06:37:43 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(/home3/phpblkr8/public_html/nycta/app/Librariesfpdf184/fpdf.php): failed to open stream: No such file or directory in /home3/phpblkr8/public_html/nycta/app/Libraries/Fpdf.php:3
+Stack trace:
+#0 /home3/phpblkr8/public_html/nycta/app/Libraries/Fpdf.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(/h...', '/home3/phpblkr8...', 3, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Libraries/Fpdf.php(3): require_once()
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(264): include_once('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(200): CodeIgniter\Autoloader\Autoloader->includeFile('/home3/phpblkr8...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('Fpdf')
+#5 /home3/phpblkr8/public_html/nycta/app/Controllers/Exporter.php(16): spl_autoload_call('Fpdf')
+#6 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/fra in /home3/phpblkr8/public_html/nycta/app/Libraries/Fpdf.php on line 3
+[07-Mar-2022 06:37:43 America/Chicago] PHP Fatal error:  CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/home3/phpblkr8/public_html/nycta/app/Librariesfpdf184/fpdf.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/phpblkr8/public_html/nycta/app/Libraries/Fpdf.php on line 3
+[07-Mar-2022 06:46:35 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(/home3/phpblkr8/public_html/nycta/app/Libraries/fpdf184/fpdf.php): failed to open stream: No such file or directory in /home3/phpblkr8/public_html/nycta/app/Libraries/Pdf.php:3
+Stack trace:
+#0 /home3/phpblkr8/public_html/nycta/app/Libraries/Pdf.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(/h...', '/home3/phpblkr8...', 3, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Libraries/Pdf.php(3): require_once()
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(264): include_once('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(200): CodeIgniter\Autoloader\Autoloader->includeFile('/home3/phpblkr8...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('Pdf')
+#5 /home3/phpblkr8/public_html/nycta/app/Controllers/Exporter.php(16): spl_autoload_call('Pdf')
+#6 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framewo in /home3/phpblkr8/public_html/nycta/app/Libraries/Pdf.php on line 3
+[07-Mar-2022 06:46:35 America/Chicago] PHP Fatal error:  CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/home3/phpblkr8/public_html/nycta/app/Libraries/fpdf184/fpdf.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/phpblkr8/public_html/nycta/app/Libraries/Pdf.php on line 3
+[07-Mar-2022 06:47:24 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(/home3/phpblkr8/public_html/nycta/app/Libraries/fpdf184/fpdf.php): failed to open stream: No such file or directory in /home3/phpblkr8/public_html/nycta/app/Libraries/Pdf.php:3
+Stack trace:
+#0 /home3/phpblkr8/public_html/nycta/app/Libraries/Pdf.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(/h...', '/home3/phpblkr8...', 3, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Libraries/Pdf.php(3): require_once()
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(264): include_once('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(200): CodeIgniter\Autoloader\Autoloader->includeFile('/home3/phpblkr8...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('Pdf')
+#5 /home3/phpblkr8/public_html/nycta/app/Controllers/Exporter.php(16): spl_autoload_call('Pdf')
+#6 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framewo in /home3/phpblkr8/public_html/nycta/app/Libraries/Pdf.php on line 3
+[07-Mar-2022 06:47:24 America/Chicago] PHP Fatal error:  CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/home3/phpblkr8/public_html/nycta/app/Libraries/fpdf184/fpdf.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/phpblkr8/public_html/nycta/app/Libraries/Pdf.php on line 3
+[09-Mar-2022 05:52:37 America/Chicago] PHP Warning:  Uncaught ErrorException: Object of class stdClass could not be converted to string in /home3/phpblkr8/public_html/nycta/app/Controllers/Branch/Course.php:36
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/home3/phpblkr8...', 36, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Controllers/Branch/Course.php(36): implode(',', Array)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Branch\Course->manage_course()
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch\Course))
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/phpblkr8/public_html/nycta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Controllers/Branch/Course.php on line 36
+[09-Mar-2022 05:52:37 America/Chicago] PHP Fatal error:  Object of class stdClass could not be converted to string in /home3/phpblkr8/public_html/nycta/app/Controllers/Branch/Course.php on line 36
+[09-Mar-2022 09:18:01 America/Chicago] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home3/phpblkr8/public_html/nycta/app/Config/Events.php:58) in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/home3/phpblkr8...', 112, Array)
+#1 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header('HTTP/2.0 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php on line 112
+[09-Mar-2022 09:18:01 America/Chicago] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home3/phpblkr8/public_html/nycta/app/Config/Events.php:58) in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/home3/phpblkr8...', 112, Array)
+#1 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header('HTTP/2.0 500 In...', true, 500)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(163): CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#4 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php on line 112
+[10-Mar-2022 05:26:10 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Branch\Payment), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Ex in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[11-Mar-2022 06:43:12 America/Chicago] PHP Fatal error:  Constant expression contains invalid operations in /home3/phpblkr8/public_html/nycta/app/Config/SiteConfig.php on line 16
+[11-Mar-2022 07:26:04 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Course), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[11-Mar-2022 07:26:12 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Course), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[11-Mar-2022 07:27:16 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Course), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[11-Mar-2022 07:40:17 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Course), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[11-Mar-2022 07:50:11 America/Chicago] PHP Fatal error:  Cannot declare class App\Controllers\Headoffice\Wallet, because the name is already in use in /home3/phpblkr8/public_html/nycta/app/Controllers/Headoffice/Setting.php on line 23
+[12-Mar-2022 07:46:23 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Array, true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[12-Mar-2022 07:46:43 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Array, true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[14-Mar-2022 00:49:14 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Setting), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Databas in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[14-Mar-2022 00:49:51 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Setting), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Databas in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[14-Mar-2022 00:50:28 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Payment), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Databas in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[21-Mar-2022 05:33:49 America/Chicago] PHP Fatal error:  Cannot declare class App\Controllers\Branch\Student, because the name is already in use in /home3/phpblkr8/public_html/nycta/app/Controllers/Branch/Marksheet.php on line 45
+[21-Mar-2022 05:34:09 America/Chicago] PHP Fatal error:  Cannot declare class App\Controllers\Branch\Student, because the name is already in use in /home3/phpblkr8/public_html/nycta/app/Controllers/Branch/Marksheet.php on line 45
+[23-Mar-2022 01:22:54 America/Chicago] PHP Fatal error:  Cannot declare class App\Controllers\Branch\Marksheet, because the name is already in use in /home3/phpblkr8/public_html/nycta/app/Controllers/Headoffice/Marksheet.php on line 227
+[23-Mar-2022 02:24:35 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Datab in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[23-Mar-2022 02:24:41 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Datab in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[24-Mar-2022 05:48:16 America/Chicago] PHP Fatal error:  Cannot declare class App\Controllers\Headoffice\Marksheet, because the name is already in use in /home3/phpblkr8/public_html/nycta/app/Controllers/Headoffice/Certificate.php on line 225
+[24-Mar-2022 07:38:04 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Setting), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[24-Mar-2022 07:38:12 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Setting), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[24-Mar-2022 07:38:30 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Setting), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[24-Mar-2022 07:38:32 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Setting), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[24-Mar-2022 07:38:50 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Setting), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[24-Mar-2022 07:39:01 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Setting), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[24-Mar-2022 07:40:15 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Setting), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[29-Mar-2022 01:28:52 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[29-Mar-2022 01:30:38 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[29-Mar-2022 01:35:05 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[29-Mar-2022 01:37:51 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[29-Mar-2022 01:39:04 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[29-Mar-2022 02:26:49 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[29-Mar-2022 02:27:32 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[29-Mar-2022 02:36:51 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[29-Mar-2022 02:44:35 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[29-Mar-2022 05:49:57 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Branch\Student), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Ex in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[29-Mar-2022 05:53:10 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[29-Mar-2022 05:53:48 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[30-Mar-2022 22:30:04 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Exporter), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ArgumentCountError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ArgumentCountError))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[06-Apr-2022 08:45:11 America/Chicago] PHP Fatal error:  Cannot redeclare App\Models\Exporter_model::getBranchData() in /home3/phpblkr8/public_html/nycta/app/Models/Exporter_model.php on line 50
+[07-Apr-2022 07:22:44 America/Chicago] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home3/phpblkr8/public_html/nycta/app/Views/headoffice/letter/auth-letter.php on line 47
+[07-Apr-2022 07:23:04 America/Chicago] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home3/phpblkr8/public_html/nycta/app/Views/headoffice/letter/auth-letter.php on line 47
+[08-Apr-2022 01:18:29 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Branch\Payment), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Ex in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[18-Apr-2022 23:45:20 America/Chicago] PHP Fatal error:  Cannot declare class App\Controllers\Branch\Certificate, because the name is already in use in /home3/phpblkr8/public_html/nycta/app/Controllers/Branch/Admit.php on line 226
+[19-Apr-2022 02:13:30 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Branch\Admit), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exce in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[20-Apr-2022 03:17:21 America/Chicago] PHP Fatal error:  Method CodeIgniter\Database\Query::__toString() must not throw an exception, caught CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Too many connections in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/Database.php on line 0
+[21-Apr-2022 06:25:58 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Document), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Databa in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[21-Apr-2022 06:48:57 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Document), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Databa in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[21-Apr-2022 06:56:09 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Document), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Databa in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[21-Apr-2022 06:58:24 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Document), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Databa in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[21-Apr-2022 06:59:47 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Document), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Databa in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[21-Apr-2022 07:04:44 America/Chicago] PHP Fatal error:  Method CodeIgniter\Database\Query::__toString() must not throw an exception, caught CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Too many connections in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/Database.php on line 0
+[21-Apr-2022 08:34:00 America/Chicago] PHP Fatal error:  Cannot declare class App\Controllers\Headoffice\Document, because the name is already in use in /home3/phpblkr8/public_html/nycta/app/Controllers/Branch/Document.php on line 465
+[22-Apr-2022 12:03:54 America/Chicago] PHP Fatal error:  Cannot declare class App\Libraries\Pdf\FPDF, because the name is already in use in /home3/phpblkr8/public_html/nycta/app/Libraries/Pdf/FPDF.php on line 12
+[22-Apr-2022 12:10:02 America/Chicago] PHP Fatal error:  Cannot declare class App\Libraries\Pdf\FPDF, because the name is already in use in /home3/phpblkr8/public_html/nycta/app/Libraries/Pdf/FPDF.php on line 12
+[23-Apr-2022 02:55:51 America/Chicago] PHP Fatal error:  Cannot redeclare barcode() (previously declared in /home3/phpblkr8/public_html/nycta/app/Helpers/custom_helper.php:409) in /home3/phpblkr8/public_html/nycta/app/Helpers/custom_helper.php on line 449
+[23-Apr-2022 02:56:34 America/Chicago] PHP Fatal error:  Cannot redeclare barcode() (previously declared in /home3/phpblkr8/public_html/nycta/app/Helpers/custom_helper.php:409) in /home3/phpblkr8/public_html/nycta/app/Helpers/custom_helper.php on line 449
+[23-Apr-2022 06:12:44 America/Chicago] PHP Warning:  Uncaught ErrorException: require(fpdf.php): failed to open stream: No such file or directory in /home3/phpblkr8/public_html/nycta/app/Libraries/Pdf/PDF_Code39.php:3
+Stack trace:
+#0 /home3/phpblkr8/public_html/nycta/app/Libraries/Pdf/PDF_Code39.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(fpdf.ph...', '/home3/phpblkr8...', 3, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Libraries/Pdf/PDF_Code39.php(3): require()
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(264): include_once('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home3/phpblkr8...')
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\P...')
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\P...' in /home3/phpblkr8/public_html/nycta/app/Libraries/Pdf/PDF_Code39.php on line 3
+[23-Apr-2022 06:12:44 America/Chicago] PHP Fatal error:  CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'fpdf.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/phpblkr8/public_html/nycta/app/Libraries/Pdf/PDF_Code39.php on line 3
+[23-Apr-2022 06:12:58 America/Chicago] PHP Fatal error:  Cannot declare class App\Libraries\Pdf\PDF_Code128, because the name is already in use in /home3/phpblkr8/public_html/nycta/app/Libraries/Pdf/FPDF.php on line 2152
+[23-Apr-2022 06:14:06 America/Chicago] PHP Fatal error:  Cannot declare class Auth\Controllers\Home, because the name is already in use in /home3/phpblkr8/public_html/nycta/app/Controllers/Home.php on line 16
+[23-Apr-2022 06:14:09 America/Chicago] PHP Fatal error:  Cannot declare class App\Libraries\Pdf\PDF_Code128, because the name is already in use in /home3/phpblkr8/public_html/nycta/app/Libraries/Pdf/FPDF.php on line 2152
+[23-Apr-2022 06:14:13 America/Chicago] PHP Fatal error:  Cannot declare class App\Libraries\Pdf\PDF_Code128, because the name is already in use in /home3/phpblkr8/public_html/nycta/app/Libraries/Pdf/FPDF.php on line 2152
+[23-Apr-2022 06:15:08 America/Chicago] PHP Fatal error:  Cannot declare class App\Libraries\Pdf\PDF_Code128, because the name is already in use in /home3/phpblkr8/public_html/nycta/app/Libraries/Pdf/FPDF.php on line 2152
+[23-Apr-2022 06:16:00 America/Chicago] PHP Fatal error:  Cannot declare class App\Libraries\Pdf\PDF_Code128, because the name is already in use in /home3/phpblkr8/public_html/nycta/app/Libraries/Pdf/FPDF.php on line 2152
+[23-Apr-2022 06:16:31 America/Chicago] PHP Fatal error:  Cannot declare class App\Libraries\Pdf\PDF_Code128, because the name is already in use in /home3/phpblkr8/public_html/nycta/app/Libraries/Pdf/FPDF.php on line 2152
+[23-Apr-2022 06:17:09 America/Chicago] PHP Fatal error:  Cannot declare class App\Libraries\Pdf\PDF_Code128, because the name is already in use in /home3/phpblkr8/public_html/nycta/app/Libraries/Pdf/FPDF.php on line 2152
+[23-Apr-2022 06:22:09 America/Chicago] PHP Fatal error:  Cannot declare class App\Libraries\Pdf\PDF_Code128, because the name is already in use in /home3/phpblkr8/public_html/nycta/app/Libraries/Pdf/FPDF.php on line 2152
+[23-Apr-2022 06:24:50 America/Chicago] PHP Fatal error:  Cannot declare class App\Libraries\Pdf\PDF_Code128, because the name is already in use in /home3/phpblkr8/public_html/nycta/app/Libraries/Pdf/FPDF.php on line 2152
+[23-Apr-2022 06:30:11 America/Chicago] PHP Fatal error:  Cannot declare class App\Libraries\Pdf\FPDF, because the name is already in use in /home3/phpblkr8/public_html/nycta/app/Libraries/Pdf/FPDF.php on line 12
+[27-Apr-2022 02:17:12 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Branch\Branch), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exc in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[27-Apr-2022 02:17:16 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Branch\Branch), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exc in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[28-Apr-2022 02:25:22 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[28-Apr-2022 02:27:34 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[28-Apr-2022 02:28:09 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[28-Apr-2022 02:28:26 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[28-Apr-2022 02:28:29 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[28-Apr-2022 02:29:10 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[28-Apr-2022 02:36:07 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[28-Apr-2022 02:36:09 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[28-Apr-2022 02:39:53 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[28-Apr-2022 02:51:50 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[28-Apr-2022 02:52:25 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[28-Apr-2022 02:52:48 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[28-Apr-2022 02:53:09 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[29-Apr-2022 02:37:33 America/Chicago] PHP Fatal error:  Cannot declare class App\Controllers\Student\Admission, because the name is already in use in /home3/phpblkr8/public_html/nycta/app/Controllers/Student/Payment.php on line 19
+[02-May-2022 01:22:59 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[02-May-2022 01:24:28 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[02-May-2022 01:25:49 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[02-May-2022 01:26:59 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[02-May-2022 01:27:05 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[02-May-2022 01:35:19 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[02-May-2022 01:42:41 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[02-May-2022 01:47:24 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[02-May-2022 01:50:47 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[02-May-2022 01:51:42 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[02-May-2022 01:53:14 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[02-May-2022 01:54:54 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[02-May-2022 01:57:54 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[02-May-2022 02:00:24 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[02-May-2022 02:01:42 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[02-May-2022 07:33:25 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[02-May-2022 07:38:23 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[02-May-2022 07:38:44 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[02-May-2022 07:40:10 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[02-May-2022 07:41:27 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[02-May-2022 10:28:39 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[09-May-2022 01:22:26 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Branch\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\ in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[09-May-2022 01:22:42 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Branch\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\ in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[09-May-2022 07:29:03 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Datab in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[09-May-2022 07:35:51 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Datab in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[09-May-2022 07:37:32 America/Chicago] PHP Fatal error:  Method CodeIgniter\Database\Query::__toString() must not throw an exception, caught CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Too many connections in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/Database.php on line 0
+[09-May-2022 07:38:33 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Datab in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[11-May-2022 09:23:32 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[11-May-2022 09:25:07 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[11-May-2022 09:25:34 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[11-May-2022 09:26:09 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[11-May-2022 09:29:05 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[11-May-2022 09:30:24 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[11-May-2022 09:31:09 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[11-May-2022 09:31:17 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[11-May-2022 09:31:24 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[11-May-2022 09:31:50 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[11-May-2022 09:33:05 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[12-May-2022 09:32:50 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[12-May-2022 09:36:05 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Headoffice\Marksheet), true)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/app/Views/errors/html/error_exception.php on line 96
+[12-May-2022 11:05:00 America/Chicago] PHP Fatal error:  Cannot redeclare App\Controllers\Headoffice\Certificate::generate_certificate() in /home3/phpblkr8/public_html/nycta/app/Controllers/Headoffice/Certificate.php on line 407
+[25-May-2022 06:00:52 America/Chicago] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 41
+[25-May-2022 06:05:03 America/Chicago] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 41
+[25-May-2022 06:06:48 America/Chicago] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 41
+[28-May-2022 23:45:41 America/Chicago] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 41
+[28-May-2022 23:46:52 America/Chicago] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 41
+[28-May-2022 23:48:55 America/Chicago] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 41
+[28-May-2022 23:50:14 America/Chicago] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 41
+[28-May-2022 23:52:13 America/Chicago] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 41
+[28-May-2022 23:52:45 America/Chicago] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 41
+[28-May-2022 23:55:42 America/Chicago] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 41
+[28-May-2022 23:56:35 America/Chicago] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 41
+[28-May-2022 23:57:35 America/Chicago] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 41
+[28-May-2022 23:59:31 America/Chicago] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 41
+[29-May-2022 00:00:34 America/Chicago] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 41
+[29-May-2022 00:01:28 America/Chicago] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 41
+[29-May-2022 00:02:23 America/Chicago] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 41
+[29-May-2022 00:02:54 America/Chicago] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 41
+[29-May-2022 00:05:39 America/Chicago] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 41
+[29-May-2022 00:09:18 America/Chicago] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 41
+[29-May-2022 00:22:34 America/Chicago] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 41
+[29-May-2022 00:33:59 America/Chicago] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 41
+[29-May-2022 00:35:26 America/Chicago] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home3/phpblkr8/public_html/nycta/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 41
+[05-Jun-2022 15:18:42 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/ctc/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/ctc/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Exporter), true)
+#2 /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/ctc/app/Views/errors/html/error_exception.php on line 96
+[05-Jun-2022 15:18:56 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/ctc/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/ctc/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Exporter), true)
+#2 /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/ctc/app/Views/errors/html/error_exception.php on line 96
+[05-Jun-2022 15:19:04 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/ctc/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/ctc/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Exporter), true)
+#2 /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/ctc/app/Views/errors/html/error_exception.php on line 96
+[05-Jun-2022 15:19:32 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/ctc/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/ctc/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Exporter), true)
+#2 /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/ctc/app/Views/errors/html/error_exception.php on line 96
+[06-Jun-2022 02:38:21 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/ctc/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/ctc/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Exporter), true)
+#2 /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/ctc/app/Views/errors/html/error_exception.php on line 96
+[17-Jun-2022 03:06:24 America/Chicago] PHP Fatal error:  Cannot declare class App\Controllers\Exporter, because the name is already in use in /home3/phpblkr8/public_html/ctc/app/Controllers/Mail.php on line 0
+[17-Jun-2022 03:43:16 America/Chicago] PHP Fatal error:  Cannot declare class App\Validation\PasswordStrengthRules, because the name is already in use in /home3/phpblkr8/public_html/ctc/app/Validation/MultipleEmailRules.php on line 5
+[17-Jun-2022 05:42:44 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home3/phpblkr8/public_html/ctc/app/Views/errors/html/error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home3/phpblkr8...', 96, Array)
+#1 /home3/phpblkr8/public_html/ctc/app/Views/errors/html/error_exception.php(96): print_r(Object(App\Controllers\Mail), true)
+#2 /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/Debug/Exceptions.php(234): include('/home3/phpblkr8...')
+#3 /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/Debug/Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown in /home3/phpblkr8/public_html/ctc/app/Views/errors/html/error_exception.php on line 96
+[25-Jun-2022 12:09:49 America/Chicago] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 41
+[25-Jun-2022 12:10:40 America/Chicago] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 41
+[25-Jun-2022 12:18:50 America/Chicago] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 41
+[25-Jun-2022 12:21:48 America/Chicago] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home3/phpblkr8/public_html/ctc/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 41
+[28-Jun-2022 21:52:49 America/Chicago] PHP Deprecated:  Required parameter $color follows optional parameter $string in /home3/phpblkr8/public_html/ctc/app/Helpers/custom_helper.php on line 460
+[28-Jun-2022 21:52:49 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $status in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 84
+[28-Jun-2022 21:52:49 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 177
+[28-Jun-2022 21:52:49 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 245
+[28-Jun-2022 21:52:49 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 308
+[28-Jun-2022 21:52:49 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 372
+[28-Jun-2022 21:52:49 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 391
+[28-Jun-2022 22:40:03 America/Chicago] PHP Deprecated:  Required parameter $color follows optional parameter $string in /home3/phpblkr8/public_html/ctc/app/Helpers/custom_helper.php on line 460
+[28-Jun-2022 22:40:03 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $status in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 84
+[28-Jun-2022 22:40:03 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 177
+[28-Jun-2022 22:40:03 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 245
+[28-Jun-2022 22:40:03 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 308
+[28-Jun-2022 22:40:03 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 372
+[28-Jun-2022 22:40:03 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 391
+[28-Jun-2022 22:45:45 America/Chicago] PHP Deprecated:  Required parameter $color follows optional parameter $string in /home3/phpblkr8/public_html/ctc/app/Helpers/custom_helper.php on line 460
+[28-Jun-2022 22:47:04 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $status in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 84
+[28-Jun-2022 22:47:04 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 177
+[28-Jun-2022 22:47:04 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 245
+[28-Jun-2022 22:47:04 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 308
+[28-Jun-2022 22:47:04 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 372
+[28-Jun-2022 22:47:04 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 391
+[28-Jun-2022 22:52:56 America/Chicago] PHP Deprecated:  Required parameter $color follows optional parameter $string in /home3/phpblkr8/public_html/ctc/app/Helpers/custom_helper.php on line 460
+[28-Jun-2022 22:59:58 America/Chicago] PHP Deprecated:  Required parameter $color follows optional parameter $string in /home3/phpblkr8/public_html/ctc/app/Helpers/custom_helper.php on line 460
+[28-Jun-2022 23:05:54 America/Chicago] PHP Deprecated:  Required parameter $color follows optional parameter $string in /home3/phpblkr8/public_html/ctc/app/Helpers/custom_helper.php on line 461
+[28-Jun-2022 23:07:39 America/Chicago] PHP Deprecated:  Required parameter $color follows optional parameter $string in /home3/phpblkr8/public_html/ctc/app/Helpers/custom_helper.php on line 460
+[28-Jun-2022 23:08:40 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $status in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 84
+[28-Jun-2022 23:08:40 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 177
+[28-Jun-2022 23:08:40 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 245
+[28-Jun-2022 23:08:40 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 308
+[28-Jun-2022 23:08:40 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 372
+[28-Jun-2022 23:08:40 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 391
+[29-Jun-2022 00:06:10 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $status in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 84
+[29-Jun-2022 00:06:10 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 177
+[29-Jun-2022 00:06:10 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 245
+[29-Jun-2022 00:06:10 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 308
+[29-Jun-2022 00:06:10 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 372
+[29-Jun-2022 00:06:10 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 391
+[29-Jun-2022 00:13:34 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $status in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 84
+[29-Jun-2022 00:13:34 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 177
+[29-Jun-2022 00:13:34 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 245
+[29-Jun-2022 00:13:34 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 308
+[29-Jun-2022 00:13:34 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 372
+[29-Jun-2022 00:13:34 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 391
+[29-Jun-2022 00:16:48 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $status in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 84
+[29-Jun-2022 00:16:48 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 177
+[29-Jun-2022 00:16:48 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 245
+[29-Jun-2022 00:16:48 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 308
+[29-Jun-2022 00:16:48 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 372
+[29-Jun-2022 00:16:48 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 391
+[29-Jun-2022 00:17:46 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 177
+[29-Jun-2022 00:17:46 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 245
+[29-Jun-2022 00:17:46 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 308
+[29-Jun-2022 00:17:46 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 372
+[29-Jun-2022 00:17:46 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 391
+[29-Jun-2022 00:23:54 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 177
+[29-Jun-2022 00:23:54 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 245
+[29-Jun-2022 00:23:54 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 308
+[29-Jun-2022 00:23:54 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 372
+[29-Jun-2022 00:23:54 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $keyword in /home3/phpblkr8/public_html/ctc/app/Models/Datatable_model.php on line 391
+[02-Jul-2022 15:01:42 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $id in /home3/phpblkr8/public_html/ctc/app/Models/Branch/Document_model.php on line 17
+[02-Jul-2022 15:01:42 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $id in /home3/phpblkr8/public_html/ctc/app/Models/Branch/Document_model.php on line 34
+[02-Jul-2022 23:53:52 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $id in /home3/phpblkr8/public_html/ctc/app/Models/Branch/Document_model.php on line 17
+[02-Jul-2022 23:53:52 America/Chicago] PHP Deprecated:  Required parameter $branchId follows optional parameter $id in /home3/phpblkr8/public_html/ctc/app/Models/Branch/Document_model.php on line 34
+[15-Jul-2022 12:04:16 America/Chicago] PHP Fatal error:  During inheritance of JsonSerializable: Uncaught ErrorException: Return type of chillerlan\Settings\SettingsContainerAbstract::jsonSerialize() should either be compatible with JsonSerializable::jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home3/nyctadxe/branch.nycta.in/vendor/chillerlan/php-settings-container/src/SettingsContainerAbstract.php:168
+Stack trace:
+#0 /home3/nyctadxe/branch.nycta.in/vendor/chillerlan/php-settings-container/src/SettingsContainerAbstract.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Return type of ...', '/home3/nyctadxe...', 168)
+#1 /home3/nyctadxe/branch.nycta.in/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(264): include_once('/home3/nyctadxe...')
+#2 /home3/nyctadxe/branch.nycta.in/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home3/nyctadxe...')
+#3 /home3/nyctadxe/branch.nycta.in/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('chillerlan\\Sett...')
+#4 /home3/nyctadxe/branch.nycta.in/vendor/chillerlan/php-qrcode/src/QROptions.php(59): CodeIgniter\Autoloader\Autoloader->loadClass('chillerlan\\Sett...')
+#5 /home3/nyctadxe/branch.nycta.in/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(264): include_once('/home3/nyctadxe...')
+#6 /home3/nyctadxe/branch.nycta.in/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home3/nyctadxe...')
+#7 /home3/nyctadxe/branch.nycta.in/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('chillerlan\\QRCo...')
+#8 /home3/nyctadxe/branch.nycta.in/vendor/chillerlan/php-qrcode/src/QRCode.php(113): CodeIgniter\Autoloader\Autoloader->loadClass('chillerlan\\QRCo...')
+#9 /home3/nyctadxe/branch.nycta.in/app/Controllers/Headoffice/Prints.php(888): chillerlan\QRCode\QRCode->__construct()
+#10 /home3/nyctadxe/branch.nycta.in/app/Controllers/Headoffice/Prints.php(193): App\Controllers\Headoffice\Prints->generateQrCode('Enroll. No. : N...', 1)
+#11 /home3/nyctadxe/branch.nycta.in/app/Controllers/Headoffice/Prints.php(105): App\Controllers\Headoffice\Prints->generate_two_marksheet_pdf(Array)
+#12 /home3/nyctadxe/branch.nycta.in/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Headoffice\Prints->generate()
+#13 /home3/nyctadxe/branch.nycta.in/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Headoffice\Prints))
+#14 /home3/nyctadxe/branch.nycta.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 /home3/nyctadxe/branch.nycta.in/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#16 {main} in /home3/nyctadxe/branch.nycta.in/vendor/chillerlan/php-settings-container/src/SettingsContainerAbstract.php on line 19
+[15-Jul-2022 12:06:27 America/Chicago] PHP Fatal error:  During inheritance of JsonSerializable: Uncaught ErrorException: Return type of chillerlan\Settings\SettingsContainerAbstract::jsonSerialize() should either be compatible with JsonSerializable::jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home3/nyctadxe/branch.nycta.in/vendor/chillerlan/php-settings-container/src/SettingsContainerAbstract.php:168
+Stack trace:
+#0 /home3/nyctadxe/branch.nycta.in/vendor/chillerlan/php-settings-container/src/SettingsContainerAbstract.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Return type of ...', '/home3/nyctadxe...', 168)
+#1 /home3/nyctadxe/branch.nycta.in/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(264): include_once('/home3/nyctadxe...')
+#2 /home3/nyctadxe/branch.nycta.in/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home3/nyctadxe...')
+#3 /home3/nyctadxe/branch.nycta.in/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('chillerlan\\Sett...')
+#4 /home3/nyctadxe/branch.nycta.in/vendor/chillerlan/php-qrcode/src/QROptions.php(59): CodeIgniter\Autoloader\Autoloader->loadClass('chillerlan\\Sett...')
+#5 /home3/nyctadxe/branch.nycta.in/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(264): include_once('/home3/nyctadxe...')
+#6 /home3/nyctadxe/branch.nycta.in/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home3/nyctadxe...')
+#7 /home3/nyctadxe/branch.nycta.in/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('chillerlan\\QRCo...')
+#8 /home3/nyctadxe/branch.nycta.in/vendor/chillerlan/php-qrcode/src/QRCode.php(113): CodeIgniter\Autoloader\Autoloader->loadClass('chillerlan\\QRCo...')
+#9 /home3/nyctadxe/branch.nycta.in/app/Controllers/Headoffice/Prints.php(888): chillerlan\QRCode\QRCode->__construct()
+#10 /home3/nyctadxe/branch.nycta.in/app/Controllers/Headoffice/Prints.php(193): App\Controllers\Headoffice\Prints->generateQrCode('Enroll. No. : N...', 1)
+#11 /home3/nyctadxe/branch.nycta.in/app/Controllers/Headoffice/Prints.php(105): App\Controllers\Headoffice\Prints->generate_two_marksheet_pdf(Array)
+#12 /home3/nyctadxe/branch.nycta.in/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Headoffice\Prints->generate()
+#13 /home3/nyctadxe/branch.nycta.in/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Headoffice\Prints))
+#14 /home3/nyctadxe/branch.nycta.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 /home3/nyctadxe/branch.nycta.in/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#16 {main} in /home3/nyctadxe/branch.nycta.in/vendor/chillerlan/php-settings-container/src/SettingsContainerAbstract.php on line 19
+[22-Jul-2022 03:12:31 America/Chicago] PHP Fatal error:  During inheritance of JsonSerializable: Uncaught ErrorException: Return type of chillerlan\Settings\SettingsContainerAbstract::jsonSerialize() should either be compatible with JsonSerializable::jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home3/nyctadxe/branch.nycta.in/vendor/chillerlan/php-settings-container/src/SettingsContainerAbstract.php:168
+Stack trace:
+#0 /home3/nyctadxe/branch.nycta.in/vendor/chillerlan/php-settings-container/src/SettingsContainerAbstract.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Return type of ...', '/home3/nyctadxe...', 168)
+#1 /home3/nyctadxe/branch.nycta.in/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(264): include_once('/home3/nyctadxe...')
+#2 /home3/nyctadxe/branch.nycta.in/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home3/nyctadxe...')
+#3 /home3/nyctadxe/branch.nycta.in/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('chillerlan\\Sett...')
+#4 /home3/nyctadxe/branch.nycta.in/vendor/chillerlan/php-qrcode/src/QROptions.php(59): CodeIgniter\Autoloader\Autoloader->loadClass('chillerlan\\Sett...')
+#5 /home3/nyctadxe/branch.nycta.in/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(264): include_once('/home3/nyctadxe...')
+#6 /home3/nyctadxe/branch.nycta.in/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home3/nyctadxe...')
+#7 /home3/nyctadxe/branch.nycta.in/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('chillerlan\\QRCo...')
+#8 /home3/nyctadxe/branch.nycta.in/vendor/chillerlan/php-qrcode/src/QRCode.php(113): CodeIgniter\Autoloader\Autoloader->loadClass('chillerlan\\QRCo...')
+#9 /home3/nyctadxe/branch.nycta.in/app/Controllers/Headoffice/Prints.php(898): chillerlan\QRCode\QRCode->__construct()
+#10 /home3/nyctadxe/branch.nycta.in/app/Controllers/Headoffice/Prints.php(193): App\Controllers\Headoffice\Prints->generateQrCode('Enroll. No. : N...', 1)
+#11 /home3/nyctadxe/branch.nycta.in/app/Controllers/Headoffice/Prints.php(105): App\Controllers\Headoffice\Prints->generate_two_marksheet_pdf(Array)
+#12 /home3/nyctadxe/branch.nycta.in/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Headoffice\Prints->generate()
+#13 /home3/nyctadxe/branch.nycta.in/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Headoffice\Prints))
+#14 /home3/nyctadxe/branch.nycta.in/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 /home3/nyctadxe/branch.nycta.in/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#16 {main} in /home3/nyctadxe/branch.nycta.in/vendor/chillerlan/php-settings-container/src/SettingsContainerAbstract.php on line 19
+[28-Jul-2022 02:34:21 UTC] PHP Parse error:  syntax error, unexpected identifier "date_default_timezone_set", expecting "function" or "const" in /home3/nyctadxe/branch.nycta.in/app/Config/App.php on line 28
+[28-Jul-2022 02:34:24 UTC] PHP Parse error:  syntax error, unexpected identifier "date_default_timezone_set", expecting "function" or "const" in /home3/nyctadxe/branch.nycta.in/app/Config/App.php on line 28
+[28-Jul-2022 02:34:25 UTC] PHP Parse error:  syntax error, unexpected identifier "date_default_timezone_set", expecting "function" or "const" in /home3/nyctadxe/branch.nycta.in/app/Config/App.php on line 28
+[28-Jul-2022 02:34:28 UTC] PHP Parse error:  syntax error, unexpected identifier "date_default_timezone_set", expecting "function" or "const" in /home3/nyctadxe/branch.nycta.in/app/Config/App.php on line 28
+[28-Jul-2022 02:34:28 UTC] PHP Parse error:  syntax error, unexpected identifier "date_default_timezone_set", expecting "function" or "const" in /home3/nyctadxe/branch.nycta.in/app/Config/App.php on line 28
+[28-Jul-2022 02:34:30 UTC] PHP Parse error:  syntax error, unexpected identifier "date_default_timezone_set", expecting "function" or "const" in /home3/nyctadxe/branch.nycta.in/app/Config/App.php on line 28
+[28-Jul-2022 02:34:33 UTC] PHP Parse error:  syntax error, unexpected identifier "date_default_timezone_set", expecting "function" or "const" in /home3/nyctadxe/branch.nycta.in/app/Config/App.php on line 28
+[28-Jul-2022 02:34:34 UTC] PHP Parse error:  syntax error, unexpected identifier "date_default_timezone_set", expecting "function" or "const" in /home3/nyctadxe/branch.nycta.in/app/Config/App.php on line 28
+[28-Jul-2022 02:34:35 UTC] PHP Parse error:  syntax error, unexpected identifier "date_default_timezone_set", expecting "function" or "const" in /home3/nyctadxe/branch.nycta.in/app/Config/App.php on line 28
+[07-Dec-2022 12:56:01 Asia/Kolkata] PHP Fatal error:  Cannot declare class App\Controllers\Branch\Employer, because the name is already in use in /home3/phpblkr8/public_html/ctc/app/Controllers/Employer/Employer.php on line 0
+[07-Dec-2022 12:56:38 Asia/Kolkata] PHP Fatal error:  Cannot declare class App\Controllers\Branch\Employer, because the name is already in use in /home3/phpblkr8/public_html/ctc/app/Controllers/Employer/Employer.php on line 0
+[07-Dec-2022 12:56:40 Asia/Kolkata] PHP Fatal error:  Cannot declare class App\Controllers\Branch\Employer, because the name is already in use in /home3/phpblkr8/public_html/ctc/app/Controllers/Employer/Employer.php on line 0
+[07-Dec-2022 12:57:27 Asia/Kolkata] PHP Fatal error:  Cannot declare class App\Controllers\Branch\BaseController, because the name is already in use in /home3/phpblkr8/public_html/ctc/app/Controllers/Employer/BaseController.php on line 0
+[07-Dec-2022 16:32:27 Asia/Kolkata] PHP Fatal error:  Cannot declare class App\Models\Student\EmployerModel, because the name is already in use in /home3/phpblkr8/public_html/ctc/app/Models/Employe/EmployerModel.php on line 0

@@ -1,0 +1,156 @@
+@media (min-width: 1400px)
+body[data-layout=topnav] .container-fluid, body[data-layout=topnav] .container-lg, body[data-layout=topnav] .container-md, body[data-layout=topnav] .container-sm, body[data-layout=topnav] .container-xl, body[data-layout=topnav] .container-xxl {
+    max-width: 85%;
+}
+@media (min-width: 992px)
+body[data-layout=topnav] .container-fluid, body[data-layout=topnav] .container-lg, body[data-layout=topnav] .container-md, body[data-layout=topnav] .container-sm, body[data-layout=topnav] .container-xl, body[data-layout=topnav] .container-xxl {
+    max-width: 95%;
+}
+body[data-layout=topnav] .container-fluid, body[data-layout=topnav] .container-lg, body[data-layout=topnav] .container-md, body[data-layout=topnav] .container-sm, body[data-layout=topnav] .container-xl, body[data-layout=topnav] .container-xxl {
+    padding-right: 24px;
+    padding-left: 24px;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,12px);
+    padding-left: var(--bs-gutter-x,12px);
+    margin-right: auto;
+    margin-left: auto;
+}
+*, ::after, ::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+.row {
+    --bs-gutter-x: 24px;
+    --bs-gutter-y: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+}
+.col-12 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: 100%;
+}
+.row>* {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
+.card {
+    border: none;
+    -webkit-box-shadow: 0 0 35px 0 rgb(154 161 171 / 15%);
+    box-shadow: 0 0 35px 0 rgb(154 161 171 / 15%);
+    margin-bottom: 24px;
+}
+
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+.card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.5rem
+rem
+ 1.5rem;
+}
+
+.table {
+    --bs-table-bg: transparent;
+    --bs-table-accent-bg: transparent;
+    --bs-table-striped-color: #6c757d;
+    --bs-table-striped-bg: #f1f3fa;
+    --bs-table-active-color: #6c757d;
+    --bs-table-active-bg: rgba(222, 226, 230, 0.4);
+    --bs-table-hover-color: #6c757d;
+    --bs-table-hover-bg: #f1f3fa;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    color: #6c757d;
+    vertical-align: top;
+    border-color: #eef2f7;
+}
+
+table {
+    caption-side: bottom;
+    border-collapse: collapse;
+}
+.mb-0 {
+    margin-bottom: 0!important;
+}
+.w-100 {
+    width: 100%!important;
+}
+tbody, td, tfoot, th, thead, tr {
+    color: #000;
+    font-size: 12px;
+}
+tbody, td, tfoot, th, thead, tr {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+}
+.table>tbody {
+    vertical-align: inherit;
+}
+tbody, td, tfoot, th, thead, tr {
+    color: #000;
+    font-size: 12px;
+}
+
+tbody, td, tfoot, th, thead, tr {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+}
+td.btd {
+    text-align: center;
+    font-weight: 800;
+}
+span.bname {
+    display: block;
+}
+#printBarcodeSection img {
+    max-width: 100%;
+}
+
+img, svg {
+    vertical-align: middle;
+}
