@@ -1,0 +1,54 @@
+
+#search-results .media-list .media{
+    border-radius: 10px;
+    box-shadow: 0px 1px 2px -2px rgb(0 0 0 / 14%), 0px 2px 6px rgb(0 0 0 / 10%), 0px 4px 12px 3px rgb(0 0 0 / 6%);
+    margin: 5px 3px;
+    padding: 20px;
+}
+#search-results .media-body p span {
+    width: 100%;
+    margin: 0 auto;
+    position: initial;
+    text-align: center;
+}
+#search-results .media-body p {
+    display: flex;
+    margin: 0;
+}
+span.text-muted.skin-square {
+    width: 0% !important;
+}
+#search-results ul.media-list{
+        height: 300px;
+    overflow-y: auto;
+}
+/* width */
+#search-results ::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+#search-results ::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+#search-results ::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+#search-results ::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+.border-radious-10{border-radius: 10px;}
+#search-results .media-body p span{margin-right: 25px;}
+.content-wrapper-before{height: 280px !important;}
+.application-steps ul{margin-left: 24px;margin: 0;padding-left: 18px;padding-bottom: 0;margin-bottom: 0;border: none;}
+.application-steps ul li{margin-bottom: 8px;}
+ul li .base-timeline-info .btn {width: 93%;}
+.center-btn{margin: 0 auto;display: block;}
+#modal-master-type-of-degree{z-index: 999999;}
+@media only screen and (max-width: 767px) {
+  .new-registration{margin-top: 10px;}
+}
